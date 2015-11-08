@@ -1,0 +1,30 @@
+{
+    "name": "mpaleo/scaffolder-theme-material",
+    "description": "Laravel scaffolder material theme",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "model",
+        "migration",
+        "seed",
+        "crud",
+        "scaffold",
+        "generator",
+        "theme",
+        "material"
+    ],
+    "authors": [
+        {
+            "name": "Michael Paleo",
+            "email": "me@michaelpaleo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "ScaffolderTheme\\": "src/ScaffolderTheme/"
+        }
+    }
+}
