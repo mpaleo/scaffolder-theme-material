@@ -17,7 +17,7 @@ This is a package for [mPaleo/scaffolder](https://github.com/mPaleo/scaffolder)
 1. Fork [mPaleo/scaffolder-theme-material](https://github.com/mPaleo/scaffolder-theme-material)
 2. Modify or add files under `{root}/resources`
 3. Make the changes needed to files under `{root}/src/ScaffolderTheme`
-4. Fork [mPaleo/scaffolder-theme-material](https://github.com/mPaleo/scaffolder)
+4. Fork [mPaleo/scaffolder](https://github.com/mPaleo/scaffolder)
 5. Wire up things
 6. Enjoy
 
