@@ -8,7 +8,12 @@ class MaterialThemeLayouts implements \Scaffolder\Themes\IScaffolderThemeLayouts
 {
     const EXT = '.blade.php';
 
-    private $layoutsDirectory = __DIR__ . '/../../resources/layouts/';
+    private $layoutsDirectory;
+
+    public function __construct()
+    {
+        $this->layoutsDirectory = __DIR__ . '/../../resources/layouts/';
+    }
 
     public function getCreatePath()
     {

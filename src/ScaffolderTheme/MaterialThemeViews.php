@@ -8,7 +8,12 @@ class MaterialThemeViews implements \Scaffolder\Themes\IScaffolderThemeViews
 {
     const EXT = '.blade.php';
 
-    private $viewsDirectory = __DIR__ . '/../../resources/views/';
+    private $viewsDirectory;
+
+    public function __construct()
+    {
+        $this->viewsDirectory = __DIR__ . '/../../resources/views/';
+    }
 
     public function getCreatePath()
     {
