@@ -43,8 +43,8 @@
         <div class="nav-wrapper container">
             <a id="logo-container" href="#" class="brand-logo">Laravel scaffolder</a>
             <ul class="right hide-on-med-and-down">
-                <li><a class="waves-effect" href="#" target="_blank">GitHub</a></li>
-                <li><a class="waves-effect" href="#" target="_blank">Wiki</a></li>
+                <li><a class="waves-effect" href="https://github.com/mPaleo/scaffolder-theme-material" target="_blank">GitHub</a></li>
+                <li><a class="waves-effect" href="https://github.com/mPaleo/scaffolder-theme-material#basic-customization" target="_blank">Wiki</a></li>
             </ul>
 
             <ul id="nav-mobile" class="side-nav">
