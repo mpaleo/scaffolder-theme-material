@@ -1,7 +1,8 @@
 # Laravel scaffolder material theme
 [![Software License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
+[![Waffle board](https://img.shields.io/badge/waffle.io-Go-blue.svg?style=flat-square)](https://waffle.io/mpaleo/scaffolder-theme-material)
 
-This is a package for [mPaleo/scaffolder](https://github.com/mPaleo/scaffolder)
+This is a package for [mpaleo/scaffolder](https://github.com/mpaleo/scaffolder)
 
 ### Publish
 ```bash
@@ -9,15 +10,15 @@ This is a package for [mPaleo/scaffolder](https://github.com/mPaleo/scaffolder)
 ````
 
 ### Basic customization
-1. Fork [mPaleo/scaffolder-theme-material](https://github.com/mPaleo/scaffolder-theme-material)
+1. Fork [mpaleo/scaffolder-theme-material](https://github.com/mpaleo/scaffolder-theme-material)
 2. Modify files under `{root}/resources`
 3. Enjoy
 
 ### Advanced customization
-1. Fork [mPaleo/scaffolder-theme-material](https://github.com/mPaleo/scaffolder-theme-material)
+1. Fork [mpaleo/scaffolder-theme-material](https://github.com/mpaleo/scaffolder-theme-material)
 2. Modify or add files under `{root}/resources`
 3. Make the changes needed to files under `{root}/src/ScaffolderTheme`
-4. Fork [mPaleo/scaffolder](https://github.com/mPaleo/scaffolder)
+4. Fork [mpaleo/scaffolder](https://github.com/mpaleo/scaffolder)
 5. Wire up things
 6. Enjoy
 
