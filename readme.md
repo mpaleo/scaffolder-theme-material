@@ -1,6 +1,7 @@
 # Laravel scaffolder material theme
 [![Software License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE)
-[![Waffle board](https://img.shields.io/badge/waffle.io-Go-blue.svg?style=flat-square)](https://waffle.io/mpaleo/scaffolder-theme-material)
+[![Waffle board](https://img.shields.io/badge/board-on%20waffle-blue.svg?style=flat-square)](https://waffle.io/mpaleo/scaffolder-theme-material)
+[![Gitter chat](https://img.shields.io/badge/chat-on%20gitter-blue.svg?style=flat-square)](https://gitter.im/mpaleo/scaffolder-theme-material)
 
 This is a package for [mpaleo/scaffolder](https://github.com/mpaleo/scaffolder)
 
