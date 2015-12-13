@@ -8,4 +8,7 @@ $(document).ready(function () {
 
     // Side-nav
     $(".button-collapse").sideNav();
+
+    // Select
+    $('select').material_select();
 });
