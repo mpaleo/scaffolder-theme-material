@@ -53,16 +53,7 @@
 
     <main>
         <div class="row">
-            <div class="col l12 card-panel grid-panel">
-                <div class="breadcrumb-container">
-                    <h5>
-                        @yield('breadcrumb')
-                    </h5>
-                </div>
-                <div class="divider"></div>
-
-                @yield('content')
-            </div>
+            @yield('content')
         </div>
     </main>
 

@@ -11,6 +11,7 @@ body {
 main {
     padding-left  : 285px;
     padding-right : 45px;
+    margin-top    : 40px;
 }
 
 .breadcrumb-container {
@@ -91,13 +92,6 @@ ul.side-nav.fixed a {
     background-color : #FFFFFF !important;
     border           : 1px solid #2196F3;
     padding-top      : 1px;
-}
-
-/* Cards */
-.card-panel {
-    padding    : 0 0 0 0 !important;
-    width      : 100%;
-    margin-top : 40px;
 }
 
 .grid-panel {
