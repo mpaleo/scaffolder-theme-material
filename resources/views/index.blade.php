@@ -34,7 +34,7 @@
         var datatable = $('table').DataTable({
             processing: true,
             serverSide: true,
-            bFilter: false,
+            bFilter: true,
             bLengthChange: false,
             ajax: '/{{route_prefix}}/get{{datatable_url}}s',
             columns: [
@@ -63,6 +63,11 @@
                 Materialize.toast('Error', 4000);
             });
         }
+
+        {{-- Search --}}
+        $('#search').keyup(function() {
+            datatable.search($(this).val()).draw();
+        })
     </script>
 
 @endpush

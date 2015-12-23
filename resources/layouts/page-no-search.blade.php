@@ -26,15 +26,6 @@
     {{-- Nav --}}
     <nav class="teal">
 
-        {{-- Search --}}
-        <div class="nav-wrapper">
-            <div class="input-field">
-                <input id="search" type="search" autocomplete="off">
-                <label for="search"><i class="material-icons">search</i></label>
-                <i class="material-icons">close</i>
-            </div>
-        </div>
-
         {{-- Side --}}
         <ul id="slide-out" class="side-nav fixed">
             <li class="logo waves-effect">

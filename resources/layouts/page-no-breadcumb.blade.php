@@ -26,15 +26,6 @@
     {{-- Nav --}}
     <nav class="teal">
 
-        {{-- Top --}}
-        <ul class="topbar right hide-on-med-and-down">
-            <li>
-                <a href="#">
-                    Administrator
-                </a>
-            </li>
-        </ul>
-
         {{-- Side --}}
         <ul id="slide-out" class="side-nav fixed">
             <li class="logo waves-effect">

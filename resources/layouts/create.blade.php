@@ -1,4 +1,4 @@
-@extends('layouts.page')
+@extends('layouts.page-no-search')
 
 @section('content')
 

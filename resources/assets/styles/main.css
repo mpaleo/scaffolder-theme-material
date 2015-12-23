@@ -67,6 +67,10 @@ nav a.button-collapse {
     float         : right;
 }
 
+.nav-wrapper {
+    margin-left: 238px;
+}
+
 nav ul a {
     height : 64px;
 }
@@ -201,8 +205,7 @@ table.dataTable {
 }
 
 .dataTables_filter {
-    float      : left !important;
-    text-align : left !important;
+    display: none;
 }
 
 .paginate_button {
@@ -246,5 +249,11 @@ button.waves-effect .waves-ripple {
 
     table.responsive-table tbody tr {
         height : initial;
+    }
+
+    .nav-wrapper {
+        width: 85%;
+        float: left !important;
+        margin-left: 0;
     }
 }
