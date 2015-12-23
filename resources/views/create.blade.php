@@ -2,7 +2,7 @@
 
 @section('breadcrumb')
 
-    <a href="/{{route_prefix}}/{{breadcrumb_lw}}">{{breadcrumb}}s</a> / Create
+    <a href="/{{route_prefix}}/{{breadcrumb_lw}}" class="teal-text">{{breadcrumb}}s</a> / Create
 
 @endsection
 

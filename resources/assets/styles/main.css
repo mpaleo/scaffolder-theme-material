@@ -51,14 +51,13 @@ a i {
 /* Nav */
 .logo {
     text-align    : center;
-    margin-top    : 0;
+    margin-top    : -1px;
     border-bottom : 1px solid #DDDDDD;
     color         : #2D2D2D;
     width         : 100%;
 }
 
 .logo > a {
-    color     : rgba(33, 150, 243, 0.8) !important;
     font-size : x-large;
 }
 
@@ -80,41 +79,11 @@ ul.side-nav.fixed a {
     padding : 0 30px;
 }
 
-.pagination li {
-    padding-top : 2px;
-}
-
-.pagination li.active a {
-    color : #2196F3 !important;
-}
-
-.pagination li.active {
-    background-color : #FFFFFF !important;
-    border           : 1px solid #2196F3;
-    padding-top      : 1px;
-}
-
 .grid-panel {
     padding : 0 0 16px 0 !important;
 }
 
 /* Grid */
-.mvc-grid-input {
-    height        : initial !important;
-    margin        : 0 !important;
-    box-sizing    : border-box !important;
-    border-radius : 2px !important;
-}
-
-.popup-button-group button {
-    padding : 0 2rem !important;
-}
-
-.popup-group select {
-    height           : initial !important;
-    background-color : #FFFFFF;
-}
-
 thead {
     border-color : #E0E0E0;
 }
@@ -124,10 +93,6 @@ thead th:last-child {
 }
 
 .table-no-actions thead th:last-child {
-    width : initial;
-}
-
-.picker thead th:last-child {
     width : initial;
 }
 
@@ -146,29 +111,6 @@ table.hoverable:hover {
 
 .hiden {
     display : none;
-}
-
-.mvc-grid-input:focus {
-    box-shadow          : none !important;
-    border-bottom-color : #CCCCCC !important;
-}
-
-.mvc-grid-row td {
-    transition : color .2s ease;
-}
-
-.mvc-grid-row.selected {
-    color      : #2196F3;
-    transition : color .2s ease;
-}
-
-.mvc-grid-pager li {
-    -webkit-touch-callout : none;
-    -webkit-user-select   : none;
-    -khtml-user-select    : none;
-    -moz-user-select      : none;
-    -ms-user-select       : none;
-    user-select           : none;
 }
 
 tbody td:last-child {
@@ -280,29 +222,6 @@ table.dataTable {
     box-shadow : none !important;
 }
 
-/* Input */
-.input-field input[type=text]:focus + label,
-.input-field input[type=password]:focus + label,
-.input-field textarea:focus + label {
-    color : #2196F3 !important;
-}
-
-.input-field input[type=text]:focus,
-.input-field input[type=password]:focus,
-.input-field textarea:focus {
-    border-bottom : 1px solid #2196F3 !important;
-    box-shadow    : 0 1px 0 0 #2196F3 !important;
-}
-
-.input-field .prefix.active {
-    color : #2196F3 !important;
-}
-
-input[type=text]:disabled,
-textarea.materialize-textarea:disabled {
-    color : inherit;
-}
-
 .form-container {
     margin-top : 20px;
 }
@@ -315,34 +234,8 @@ button.waves-effect .waves-ripple {
     background-color : rgba(170, 170, 170, 0.3);
 }
 
-.select-wrapper li span {
-    color : #42A5F5 !important;
-}
-
 #send-button {
     z-index : 0 !important;
-}
-
-/* DatePicker */
-.picker__weekday-display {
-    background-color : #2196F3;
-}
-
-.picker__date-display {
-    background-color : #42A5F5;
-}
-
-.picker__day.picker__day--today {
-    color : #42A5F5;
-}
-
-.picker__day--selected {
-    background-color : #42A5F5 !important;
-}
-
-.picker__close,
-.picker__today {
-    color : #42A5F5;
 }
 
 /* MQ */

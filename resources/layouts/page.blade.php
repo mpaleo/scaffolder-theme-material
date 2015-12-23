@@ -24,7 +24,7 @@
 </head>
 <body>
     {{-- Nav --}}
-    <nav class="blue">
+    <nav class="teal">
 
         {{-- Top --}}
         <ul class="topbar right hide-on-med-and-down">
@@ -38,7 +38,7 @@
         {{-- Side --}}
         <ul id="slide-out" class="side-nav fixed">
             <li class="logo waves-effect">
-                <a href="/{{route_prefix}}/dashboard">
+                <a href="/{{route_prefix}}/dashboard" class="teal-text">
                     {{app_name}}
                 </a>
             </li>
