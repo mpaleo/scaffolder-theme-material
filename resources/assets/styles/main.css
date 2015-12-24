@@ -43,11 +43,6 @@ a i {
     right  : 24px;
 }
 
-/* Progress */
-.progress {
-    display : none;
-}
-
 /* Nav */
 .logo {
     text-align    : center;
@@ -68,7 +63,7 @@ nav a.button-collapse {
 }
 
 .nav-wrapper {
-    margin-left: 238px;
+    margin-left : 238px;
 }
 
 nav ul a {
@@ -193,7 +188,9 @@ table.dataTable {
 
 .dataTables_processing {
     height           : 80px !important;
-    padding-top      : 29px !important;
+    padding-top      : 20px !important;
+    padding-left     : 23px !important;
+    padding-right    : 23px !important;
     font-size        : 18px !important;
     margin-top       : -50px !important;
     width            : 400px !important;
@@ -205,7 +202,7 @@ table.dataTable {
 }
 
 .dataTables_filter {
-    display: none;
+    display : none;
 }
 
 .paginate_button {
@@ -241,6 +238,14 @@ button.waves-effect .waves-ripple {
     z-index : 0 !important;
 }
 
+::selection {
+    background : rgba(253, 223, 131, 0.6);
+}
+
+::-moz-selection {
+    background : rgba(253, 223, 131, 0.6);
+}
+
 /* MQ */
 @media only screen and (max-width : 992px) {
     main {
@@ -252,8 +257,18 @@ button.waves-effect .waves-ripple {
     }
 
     .nav-wrapper {
-        width: 85%;
-        float: left !important;
-        margin-left: 0;
+        width       : 85%;
+        float       : left !important;
+        margin-left : 0;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .dataTables_info {
+        padding-left : 0 !important;
+    }
+
+    .dataTables_paginate {
+        padding-right : 0 !important;
     }
 }

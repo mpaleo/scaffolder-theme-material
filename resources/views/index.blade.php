@@ -37,6 +37,9 @@
             bFilter: true,
             bLengthChange: false,
             ajax: '/{{route_prefix}}/get{{datatable_url}}s',
+            oLanguage: {
+                sProcessing: "Processing<div class=\"progress\"><div class=\"indeterminate\"></div></div>"
+            },
             columns: [
                 {{datatable_fields}}
                 { data: 'action', name: 'action', orderable: false, searchable: false}

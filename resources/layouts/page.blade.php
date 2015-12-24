@@ -55,7 +55,7 @@
     <main>
         <div class="row">
             @if(!isset($breadcumb) || (isset($breadcumb) && $breadcumb == true))
-                <div class="col l12 card-panel grid-panel">
+                <div class="col s12 card-panel grid-panel">
                     <div class="breadcrumb-container">
                         <h5>
                             @yield('breadcrumb')
