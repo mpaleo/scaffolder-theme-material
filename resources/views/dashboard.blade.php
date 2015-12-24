@@ -1,4 +1,4 @@
-@extends('layouts.page-no-breadcumb')
+@extends('layouts.page', ['breadcumb' => false, 'search' => false])
 
 @section('content')
 

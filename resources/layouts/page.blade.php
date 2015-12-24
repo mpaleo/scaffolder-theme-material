@@ -27,13 +27,15 @@
     <nav class="teal">
 
         {{-- Search --}}
-        <div class="nav-wrapper">
-            <div class="input-field">
-                <input id="search" type="search" autocomplete="off">
-                <label for="search"><i class="material-icons">search</i></label>
-                <i class="material-icons">close</i>
+        @if(!isset($search) || (isset($search) && $search == true))
+            <div class="nav-wrapper">
+                <div class="input-field">
+                    <input id="search" type="search" autocomplete="off">
+                    <label for="search"><i class="material-icons">search</i></label>
+                    <i class="material-icons">close</i>
+                </div>
             </div>
-        </div>
+        @endif
 
         {{-- Side --}}
         <ul id="slide-out" class="side-nav fixed">
@@ -43,7 +45,6 @@
                 </a>
             </li>
             {{links}}
-
         </ul>
 
         <a href="#" data-activates="slide-out" class="button-collapse waves-effect">
@@ -53,16 +54,20 @@
 
     <main>
         <div class="row">
-            <div class="col l12 card-panel grid-panel">
-                <div class="breadcrumb-container">
-                    <h5>
-                        @yield('breadcrumb')
-                    </h5>
-                </div>
-                <div class="divider"></div>
+            @if(!isset($breadcumb) || (isset($breadcumb) && $breadcumb == true))
+                <div class="col l12 card-panel grid-panel">
+                    <div class="breadcrumb-container">
+                        <h5>
+                            @yield('breadcrumb')
+                        </h5>
+                    </div>
+                    <div class="divider"></div>
 
+                    @yield('content')
+                </div>
+            @else
                 @yield('content')
-            </div>
+            @endif
         </div>
     </main>
 
