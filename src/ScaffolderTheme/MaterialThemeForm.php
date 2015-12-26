@@ -18,11 +18,14 @@ class MaterialThemeForm extends FormBuilder
 
     public function textarea($name, $value = null, $options = [])
     {
+        $options['id'] = $name;
+        $options['class'] = 'materialize-textarea';
+
         return sprintf('
         <div class="input-field col l6 s8 offset-l3 offset-s2">
             %s
             %s
-        </div>', parent::textarea($name, $value, ['class' => 'materialize-textarea']), parent::label($name, null, []));
+        </div>', parent::textarea($name, $value, $options), parent::label($name, null, []));
     }
 
     public function select($name, $list = [], $selected = null, $options = [])
@@ -57,6 +60,8 @@ class MaterialThemeForm extends FormBuilder
 
     private function commonInputs($type, $name, $value = null, $options = [])
     {
+        $options['id'] = $name;
+
         return sprintf('
         <div class="input-field col l6 s8 offset-l3 offset-s2">
             %s
