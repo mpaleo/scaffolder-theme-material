@@ -2,7 +2,7 @@
 
 @section('breadcrumb')
 
-    <a href="/{{route_prefix}}/{{breadcrumb_lw}}" class="teal-text">{{breadcrumb}}s</a> / {{ $model->{{primaryKey}} }} / Edit
+    <a href="/{{route_prefix}}/{{breadcrumb_lw}}" class="teal-text">{{breadcrumb}}</a> / {{ $model->{{primaryKey}} }} / Edit
 
 @endsection
 

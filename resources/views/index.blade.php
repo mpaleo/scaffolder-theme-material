@@ -2,7 +2,7 @@
 
 @section('breadcrumb')
 
-    {{breadcrumb}}s
+    {{breadcrumb}}
 
 @endsection
 
