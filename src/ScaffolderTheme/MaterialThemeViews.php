@@ -4,7 +4,7 @@ namespace ScaffolderTheme;
 
 use Illuminate\Support\Facades\File;
 
-class MaterialThemeViews implements \Scaffolder\Themes\IScaffolderThemeViews
+class MaterialThemeViews implements \Scaffolder\Themes\ScaffolderThemeViewsInterface
 {
     const EXT = '.blade.php';
 
