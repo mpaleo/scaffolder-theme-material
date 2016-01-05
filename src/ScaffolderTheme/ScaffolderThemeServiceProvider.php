@@ -19,7 +19,7 @@ class ScaffolderThemeServiceProvider extends \Scaffolder\Themes\AbstractThemeSer
 
     protected function registerThemeFormBuilder()
     {
-        $this->app->bindShared('form', function($app)
+        $this->app->singleton('form', function($app)
         {
             $form = new MaterialThemeForm($app['html'], $app['url'], $app['session.store']->getToken());
 
