@@ -23,4 +23,6 @@ This is a package for [mpaleo/scaffolder](https://github.com/mpaleo/scaffolder)
 5. Wire up things
 6. Enjoy
 
-![Material Template overview](https://cloud.githubusercontent.com/assets/5132565/11137273/e94a445a-8994-11e5-9d61-a5488a6fb01f.png)
+![Material Template overview (Welcome)](https://cloud.githubusercontent.com/assets/5132565/12154007/ca64eb76-b49b-11e5-9e6f-23970c3da715.png)
+
+![Material Template overview (Listing)](https://cloud.githubusercontent.com/assets/5132565/12154040/03b05bc2-b49c-11e5-8b27-14a9345f7757.png)
