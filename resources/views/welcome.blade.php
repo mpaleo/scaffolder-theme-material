@@ -44,7 +44,7 @@
             <a id="logo-container" href="#" class="brand-logo">Laravel scaffolder</a>
             <ul class="right hide-on-med-and-down">
                 <li><a class="waves-effect" href="https://github.com/mPaleo/scaffolder-theme-material" target="_blank">GitHub</a></li>
-                <li><a class="waves-effect" href="https://github.com/mPaleo/scaffolder-theme-material#basic-customization" target="_blank">Wiki</a></li>
+                <li><a class="waves-effect" href="https://github.com/mPaleo/scaffolder-theme-material/issues" target="_blank">Help</a></li>
             </ul>
 
             <ul id="nav-mobile" class="side-nav">
@@ -62,13 +62,13 @@
             <br>
             <br>
 
-            <h1 class="header center deep-orange-text">Starter material template</h1>
+            <h1 class="header center teal-text">Starter material template</h1>
 
             <div class="row center">
                 <h5 class="header col s12 light">Craft your next application easier and faster</h5>
             </div>
             <div class="row center">
-                <a href="#" id="download-button" class="btn-large waves-effect waves-light deep-orange">Get Started</a>
+                <a href="#" class="btn-large waves-effect waves-light teal">Get Started</a>
             </div>
             <br>
             <br>
@@ -80,37 +80,33 @@
             <div class="row">
                 <div class="col s12 m4">
                     <div class="icon-block">
-                        <h2 class="center deep-orange-text"><i class="material-icons">flash_on</i></h2>
+                        <h2 class="center teal-text"><i class="material-icons">flash_on</i></h2>
                         <h5 class="center">Speeds up development</h5>
 
                         <p class="light center-align">
-                            Remove the headache of creating over and over again the base code for the 85% of your
-                            projects. Also you can recreate the base app with only some of the generated files !
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quis, enim ex nesciunt voluptas quam necessitatibus, quo beatae.
                         </p>
                     </div>
                 </div>
 
                 <div class="col s12 m4">
                     <div class="icon-block">
-                        <h2 class="center deep-orange-text"><i class="material-icons">grade</i></h2>
+                        <h2 class="center teal-text"><i class="material-icons">grade</i></h2>
                         <h5 class="center">Easy to work with</h5>
 
                         <p class="light center-align">
-                            We have provided detailed documentation as well as specific code examples to help new users
-                            get started. We are also always open to feedback and can answer any questions a user may
-                            have
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quis, enim ex nesciunt voluptas quam necessitatibus, quo beatae.
                         </p>
                     </div>
                 </div>
 
                 <div class="col s12 m4">
                     <div class="icon-block">
-                        <h2 class="center deep-orange-text"><i class="material-icons">code</i></h2>
+                        <h2 class="center teal-text"><i class="material-icons">code</i></h2>
                         <h5 class="center">Extend</h5>
 
                         <p class="light center-align">
-                            You are free to extend it the way you need. We only generate things that you need to start,
-                            always keeping the code clean and abstract. Are you hungry ? Fork it !
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quis, enim ex nesciunt voluptas quam necessitatibus, quo beatae.
                         </p>
                     </div>
                 </div>
@@ -122,36 +118,33 @@
             <div class="row">
                 <div class="col s12 m4">
                     <div class="icon-block">
-                        <h2 class="center deep-orange-text"><i class="material-icons">keyboard</i></h2>
+                        <h2 class="center teal-text"><i class="material-icons">keyboard</i></h2>
                         <h5 class="center">Versatile</h5>
 
                         <p class="light center-align">
-                            There are more than one way to craft an application. You can use the console commands or the
-                            UI if you dont feel hacky today
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quis, enim ex nesciunt voluptas quam necessitatibus, quo beatae.
                         </p>
                     </div>
                 </div>
 
                 <div class="col s12 m4">
                     <div class="icon-block">
-                        <h2 class="center deep-orange-text"><i class="material-icons">devices</i></h2>
+                        <h2 class="center teal-text"><i class="material-icons">devices</i></h2>
                         <h5 class="center">Design</h5>
 
                         <p class="light center-align">
-                            The generated application, uses a minimalist interface design to help you to build on top of
-                            it, or you can throw away and put your own cool interface
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quis, enim ex nesciunt voluptas quam necessitatibus, quo beatae.
                         </p>
                     </div>
                 </div>
 
                 <div class="col s12 m4">
                     <div class="icon-block">
-                        <h2 class="center deep-orange-text"><i class="material-icons">thumb_up</i></h2>
+                        <h2 class="center teal-text"><i class="material-icons">thumb_up</i></h2>
                         <h5 class="center">Enjoyable</h5>
 
                         <p class="light center-align">
-                            Scaffolder is tailored following the principle that the development process must be a happy
-                            thing so, code and enjoy !
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quis, enim ex nesciunt voluptas quam necessitatibus, quo beatae.
                         </p>
                     </div>
                 </div>
@@ -173,19 +166,19 @@
                 <div class="col l3 s12">
                     <h5 class="white-text">Friends</h5>
                     <ul>
-                        <li><a class="white-text" href="http://laravel.com/" target="_blank">Laravel</a></li>
-                        <li><a class="white-text" href="http://materializecss.com/" target="_blank">Materialize</a></li>
-                        <li><a class="white-text" href="https://getcomposer.org/" target="_blank">Composer</a></li>
-                        <li><a class="white-text" href="https://www.google.com.uy/search?q=how+are+you+meme&tbm=isch" target="_blank">You</a></li>
+                        <li><a class="white-text" href="#">Link stub 1</a></li>
+                        <li><a class="white-text" href="#">Link stub 2</a></li>
+                        <li><a class="white-text" href="#">Link stub 3</a></li>
+                        <li><a class="white-text" href="#">Link stub 4</a></li>
                     </ul>
                 </div>
                 <div class="col l3 s12">
                     <h5 class="white-text">More ...</h5>
                     <ul>
-                        <li><a class="white-text" href="https://www.npmjs.com/" target="_blank">NPM</a></li>
-                        <li><a class="white-text" href="http://bower.io/" target="_blank">Bower</a></li>
-                        <li><a class="white-text" href="https://jquery.com/" target="_blank">jQuery</a></li>
-                        <li><a class="white-text" href="https://google.com/" target="_blank">Google</a></li>
+                        <li><a class="white-text" href="#">Link stub 5</a></li>
+                        <li><a class="white-text" href="#">Link stub 6</a></li>
+                        <li><a class="white-text" href="#">Link stub 7</a></li>
+                        <li><a class="white-text" href="#">Link stub 8</a></li>
                     </ul>
                 </div>
             </div>
@@ -194,7 +187,7 @@
             <div class="container">
                 2015 Laravel scaffolder
                 <a class="grey-text text-lighten-4 right" href="//en.wikipedia.org/wiki/Uruguay" target="_blank">
-                    Made with <i class="tiny material-icons deep-orange-text">favorite</i> in Uruguay
+                    Made with <i class="tiny material-icons teal-text">favorite</i> in Uruguay
                 </a>
             </div>
         </div>
