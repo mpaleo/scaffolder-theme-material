@@ -43,8 +43,12 @@
         <div class="nav-wrapper container">
             <a id="logo-container" href="#" class="brand-logo">Laravel scaffolder</a>
             <ul class="right hide-on-med-and-down">
-                <li><a class="waves-effect" href="https://github.com/mPaleo/scaffolder-theme-material" target="_blank">GitHub</a></li>
-                <li><a class="waves-effect" href="https://github.com/mPaleo/scaffolder-theme-material/issues" target="_blank">Help</a></li>
+                <li>
+                    <a class="waves-effect" href="https://github.com/mPaleo/scaffolder-theme-material" target="_blank">GitHub</a>
+                </li>
+                <li>
+                    <a class="waves-effect" href="https://github.com/mPaleo/scaffolder-theme-material/issues" target="_blank">Help</a>
+                </li>
             </ul>
 
             <ul id="nav-mobile" class="side-nav">
@@ -84,7 +88,8 @@
                         <h5 class="center">Speeds up development</h5>
 
                         <p class="light center-align">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quis, enim ex nesciunt voluptas quam necessitatibus, quo beatae.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quis, enim ex nesciunt
+                            voluptas quam necessitatibus, quo beatae.
                         </p>
                     </div>
                 </div>
@@ -95,7 +100,8 @@
                         <h5 class="center">Easy to work with</h5>
 
                         <p class="light center-align">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quis, enim ex nesciunt voluptas quam necessitatibus, quo beatae.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quis, enim ex nesciunt
+                            voluptas quam necessitatibus, quo beatae.
                         </p>
                     </div>
                 </div>
@@ -106,7 +112,8 @@
                         <h5 class="center">Extend</h5>
 
                         <p class="light center-align">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quis, enim ex nesciunt voluptas quam necessitatibus, quo beatae.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quis, enim ex nesciunt
+                            voluptas quam necessitatibus, quo beatae.
                         </p>
                     </div>
                 </div>
@@ -122,7 +129,8 @@
                         <h5 class="center">Versatile</h5>
 
                         <p class="light center-align">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quis, enim ex nesciunt voluptas quam necessitatibus, quo beatae.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quis, enim ex nesciunt
+                            voluptas quam necessitatibus, quo beatae.
                         </p>
                     </div>
                 </div>
@@ -133,7 +141,8 @@
                         <h5 class="center">Design</h5>
 
                         <p class="light center-align">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quis, enim ex nesciunt voluptas quam necessitatibus, quo beatae.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quis, enim ex nesciunt
+                            voluptas quam necessitatibus, quo beatae.
                         </p>
                     </div>
                 </div>
@@ -144,7 +153,8 @@
                         <h5 class="center">Enjoyable</h5>
 
                         <p class="light center-align">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quis, enim ex nesciunt voluptas quam necessitatibus, quo beatae.
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quis, enim ex nesciunt
+                            voluptas quam necessitatibus, quo beatae.
                         </p>
                     </div>
                 </div>

@@ -14,6 +14,7 @@ class ScaffolderThemeServiceProvider extends \Scaffolder\Themes\AbstractThemeSer
         // Views
         $this->publishes([
             __DIR__ . '/../../resources/views/welcome.blade.php' => base_path('resources/views/welcome.blade.php'),
+            __DIR__ . '/../../resources/views/login.blade.php' => base_path('resources/views/login.blade.php'),
         ], 'views');
     }
 
