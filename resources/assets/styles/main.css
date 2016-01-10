@@ -87,10 +87,6 @@ thead {
     border-color : #E0E0E0;
 }
 
-thead th:last-child {
-    width : 170px;
-}
-
 .table-no-actions thead th:last-child {
     width : initial;
 }
@@ -115,7 +111,6 @@ table.hoverable:hover {
 tbody td:last-child {
     -webkit-touch-callout : none;
     -webkit-user-select   : none;
-    -khtml-user-select    : none;
     -moz-user-select      : none;
     -ms-user-select       : none;
     user-select           : none;
@@ -127,7 +122,7 @@ tbody td:last-child {
 
 /* Modal */
 .delete-modal .row {
-    margin-bottom : 0px !important;
+    margin-bottom : 0 !important;
 }
 
 .delete-modal h5 {

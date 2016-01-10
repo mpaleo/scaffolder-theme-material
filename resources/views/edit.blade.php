@@ -30,6 +30,13 @@
                 console.log(response);
             });
         });
+
+        $('.datepicker').pickadate({
+            selectMonths: true,
+            selectYears: 15,
+            hiddenName: true,
+            formatSubmit: 'yyyy/mm/dd'
+        });
     </script>
 
 @endpush

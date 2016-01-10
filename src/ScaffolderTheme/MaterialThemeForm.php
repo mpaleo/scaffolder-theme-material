@@ -28,6 +28,20 @@ class MaterialThemeForm extends FormBuilder
         </div>', parent::textarea($name, $value, $options), parent::label($name, null, []));
     }
 
+    public function date($name, $value = null, $options = [])
+    {
+        if (is_null($value) || $value == '0000-00-00')
+        {
+            $value = '';
+        }
+
+        return sprintf('
+        <div class="input-field col l6 s8 offset-l3 offset-s2">
+            <input id="%s" name="%s" type="date" class="datepicker" data-value="%s">
+            %s
+        </div>', $name, $name, $value, parent::label($name, null, []));
+    }
+
     public function select($name, $list = [], $selected = null, $options = [])
     {
         return sprintf('
