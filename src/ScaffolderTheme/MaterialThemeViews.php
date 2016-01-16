@@ -3,8 +3,9 @@
 namespace ScaffolderTheme;
 
 use Illuminate\Support\Facades\File;
+use Scaffolder\Themes\ScaffolderThemeViewsInterface;
 
-class MaterialThemeViews implements \Scaffolder\Themes\ScaffolderThemeViewsInterface
+class MaterialThemeViews implements ScaffolderThemeViewsInterface
 {
     const EXT = '.blade.php';
 
@@ -20,11 +21,6 @@ class MaterialThemeViews implements \Scaffolder\Themes\ScaffolderThemeViewsInter
         return realpath($this->viewsDirectory . 'create' . self::EXT);
     }
 
-    public function getDashboardPath()
-    {
-        return realpath($this->viewsDirectory . 'dashboard' . self::EXT);
-    }
-
     public function getEditPath()
     {
         return realpath($this->viewsDirectory . 'edit' . self::EXT);
@@ -35,8 +31,18 @@ class MaterialThemeViews implements \Scaffolder\Themes\ScaffolderThemeViewsInter
         return realpath($this->viewsDirectory . 'index' . self::EXT);
     }
 
+    public function getDashboardPath()
+    {
+        return realpath($this->viewsDirectory . 'dashboard' . self::EXT);
+    }
+
     public function getWelcomePath()
     {
         return realpath($this->viewsDirectory . 'welcome' . self::EXT);
+    }
+
+    public function getLoginPath()
+    {
+        return realpath($this->viewsDirectory . 'login' . self::EXT);
     }
 }

@@ -195,7 +195,7 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-                2015 Laravel scaffolder
+                {{ date('Y') }} Laravel scaffolder
                 <a class="grey-text text-lighten-4 right" href="//en.wikipedia.org/wiki/Uruguay" target="_blank">
                     Made with <i class="tiny material-icons teal-text">favorite</i> in Uruguay
                 </a>

@@ -2,7 +2,9 @@
 
 namespace ScaffolderTheme;
 
-class ScaffolderThemeServiceProvider extends \Scaffolder\Themes\AbstractThemeServiceProvider
+use Scaffolder\Themes\AbstractThemeServiceProvider;
+
+class ScaffolderThemeServiceProvider extends AbstractThemeServiceProvider
 {
     public function boot()
     {
@@ -11,16 +13,13 @@ class ScaffolderThemeServiceProvider extends \Scaffolder\Themes\AbstractThemeSer
             __DIR__ . '/../../resources/assets/' => public_path(),
         ], 'assets');
 
-        // Views
-        $this->publishes([
-            __DIR__ . '/../../resources/views/welcome.blade.php' => base_path('resources/views/welcome.blade.php'),
-            __DIR__ . '/../../resources/views/login.blade.php' => base_path('resources/views/login.blade.php'),
-        ], 'views');
+        // Extension view
+        $this->loadViewsFrom(__DIR__ . '/../../resources/extension-views', 'scaffolder.theme.extension');
     }
 
     protected function registerThemeFormBuilder()
     {
-        $this->app->singleton('form', function($app)
+        $this->app->singleton('form', function ($app)
         {
             $form = new MaterialThemeForm($app['html'], $app['url'], $app['session.store']->getToken());
 
@@ -30,7 +29,7 @@ class ScaffolderThemeServiceProvider extends \Scaffolder\Themes\AbstractThemeSer
 
     protected function registerThemeViews()
     {
-        $this->app->singleton('scaffolder.theme.views', function ($app)
+        $this->app->singleton('scaffolder.theme.views', function ()
         {
             return new MaterialThemeViews();
         });
@@ -38,9 +37,17 @@ class ScaffolderThemeServiceProvider extends \Scaffolder\Themes\AbstractThemeSer
 
     protected function registerThemeLayouts()
     {
-        $this->app->singleton('scaffolder.theme.layouts', function ($app)
+        $this->app->singleton('scaffolder.theme.layouts', function ()
         {
             return new MaterialThemeLayouts();
+        });
+    }
+
+    protected function registerThemeExtension()
+    {
+        $this->app->singleton('scaffolder.theme.extension', function ()
+        {
+            return new MaterialThemeExtension();
         });
     }
 }
