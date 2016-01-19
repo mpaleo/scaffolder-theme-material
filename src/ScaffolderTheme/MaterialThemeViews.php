@@ -3,7 +3,7 @@
 namespace ScaffolderTheme;
 
 use Illuminate\Support\Facades\File;
-use Scaffolder\Themes\ScaffolderThemeViewsInterface;
+use Scaffolder\Support\Contracts\ScaffolderThemeViewsInterface;
 
 class MaterialThemeViews implements ScaffolderThemeViewsInterface
 {

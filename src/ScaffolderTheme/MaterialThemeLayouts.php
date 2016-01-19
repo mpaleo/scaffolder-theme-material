@@ -3,7 +3,7 @@
 namespace ScaffolderTheme;
 
 use Illuminate\Support\Facades\File;
-use Scaffolder\Themes\ScaffolderThemeLayoutsInterface;
+use Scaffolder\Support\Contracts\ScaffolderThemeLayoutsInterface;
 
 class MaterialThemeLayouts implements ScaffolderThemeLayoutsInterface
 {

@@ -2,7 +2,8 @@
 
 namespace ScaffolderTheme;
 
-use Scaffolder\Themes\AbstractThemeServiceProvider;
+use Scaffolder\AbstractThemeServiceProvider;
+use ViewTags\ViewTags;
 
 class ScaffolderThemeServiceProvider extends AbstractThemeServiceProvider
 {
@@ -13,8 +14,11 @@ class ScaffolderThemeServiceProvider extends AbstractThemeServiceProvider
             __DIR__ . '/../../resources/assets/' => public_path(),
         ], 'assets');
 
-        // Extension view
+        // Load extension view
         $this->loadViewsFrom(__DIR__ . '/../../resources/extension-views', 'scaffolder.theme.extension');
+
+        // Tag extension view
+        ViewTags::tag('scaffolder.theme.extension::extension', 'scaffolder.theme.extension');
     }
 
     protected function registerThemeFormBuilder()
