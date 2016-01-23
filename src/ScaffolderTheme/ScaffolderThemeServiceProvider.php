@@ -25,7 +25,7 @@ class ScaffolderThemeServiceProvider extends AbstractThemeServiceProvider
     {
         $this->app->singleton('form', function ($app)
         {
-            $form = new MaterialThemeForm($app['html'], $app['url'], $app['session.store']->getToken());
+            $form = new MaterialThemeForm($app['html'], $app['url'], $app['view'], $app['session.store']->getToken());
 
             return $form->setSessionStore($app['session.store']);
         });
