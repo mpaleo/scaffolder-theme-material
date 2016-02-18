@@ -2,7 +2,6 @@
 
 namespace ScaffolderTheme;
 
-use Illuminate\Support\Facades\File;
 use Scaffolder\Support\Contracts\ScaffolderThemeViewsInterface;
 
 class MaterialThemeViews implements ScaffolderThemeViewsInterface
