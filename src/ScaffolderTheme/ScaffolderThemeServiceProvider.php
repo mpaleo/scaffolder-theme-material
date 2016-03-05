@@ -2,7 +2,7 @@
 
 namespace ScaffolderTheme;
 
-use Scaffolder\AbstractThemeServiceProvider;
+use Scaffolder\Support\Providers\AbstractThemeServiceProvider;
 use ViewTags\ViewTags;
 
 class ScaffolderThemeServiceProvider extends AbstractThemeServiceProvider

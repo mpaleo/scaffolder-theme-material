@@ -22,7 +22,7 @@
     "require": {
         "php": ">=5.5.9",
         "mpaleo/view-tags": "dev-master",
-        "mpaleo/scaffolder": "~1.0",
+        "mpaleo/scaffolder-support": "dev-master",
         "laravelcollective/html": "5.2.*"
     },
     "autoload": {
